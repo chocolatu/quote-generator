@@ -1,0 +1,10 @@
+html {
+    box-sizing: border-box;
+    /*when we add a padding, it can exceed 100%, doing so makes the padding not overflow */
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    /*vh is viewport height => 100vh is the entire height of the window*/
+}
